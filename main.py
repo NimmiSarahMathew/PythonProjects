@@ -14,7 +14,7 @@ def replaceStrings(line, destfile):
     destfile.write(line)
 
 
-# to iterate through the folder containing the 'python' file names
+# to iterate through the folder containing the '.python' files
 for filename in os.listdir(source):
     if filename.endswith(".py"):
         # to write to a destination file
